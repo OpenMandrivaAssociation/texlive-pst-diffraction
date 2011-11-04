@@ -62,6 +62,7 @@ associated color will be calculated by the package).
 %doc %{_texmfdistdir}/doc/generic/pst-diffraction/pst-diffraction-docFR.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-diffraction/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,3 +73,5 @@ associated color will be calculated by the package).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
