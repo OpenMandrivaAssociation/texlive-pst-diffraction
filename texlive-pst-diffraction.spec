@@ -63,3 +63,17 @@ associated color will be calculated by the package).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.03-2
++ Revision: 755261
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.03-1
++ Revision: 719343
+- texlive-pst-diffraction
+- texlive-pst-diffraction
+- texlive-pst-diffraction
+- texlive-pst-diffraction
+
