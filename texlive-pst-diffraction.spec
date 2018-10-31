@@ -6,7 +6,7 @@
 # catalog-version 2.03
 Name:		texlive-pst-diffraction
 Version:	2.03
-Release:	10
+Release:	11
 Summary:	Print diffraction patterns from various apertures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-diffraction
