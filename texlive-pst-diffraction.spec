@@ -3,7 +3,7 @@ Version:	62977
 Release:	2
 Summary:	Print diffraction patterns from various apertures
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-diffraction
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-diffraction
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-diffraction.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-diffraction.doc.r%{version}.tar.xz
